@@ -1,5 +1,7 @@
 # pubsubd
 
+<b>Note: This is an outdated version of this project hosted here for reference purposes. A significantly enhanced version is available at https://git.sr.ht/~edwin/pubsubd. The enhanced version supports multiple topics, maximum subscription queue sizes with dropping strategies, and features at least one important bug fix.</b>
+
 Pubsubd is a simple pub-sub server with a curl-friendly HTTP interface. All messages are posted to a single topic. Subscriptions are creared implicitly by performing a pull or ack operation. Pubsubd is poll-only: it does not support push operations.
 
 ## Installing
