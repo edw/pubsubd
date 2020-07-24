@@ -5,7 +5,7 @@ Pubsubd is a simple pub-sub server with a curl-friendly HTTP interface. All mess
 ## Installing
 
 ```
-$ go install poseur.com/pubsubd
+$ go get poseur.com/pubsubd
 ```
 
 ## Running
